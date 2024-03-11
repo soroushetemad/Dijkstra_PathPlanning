@@ -8,6 +8,7 @@ This Python code implements Dijkstra's algorithm for pathfinding on a 2D map. Th
 
 1. **Map Input:**
    - The code takes as input a JPEG image representing a 2D map with obstacles outlined in black color. The user can choose the map of their choice.
+   -  Example inputs: Start (5,5) Goal: (1150, 250), Start (5,5) Goal: (1000, 300),  Start (10,20) Goal: (1000, 300)
 
 2. **Obstacle Detection:**
    - The algorithm detects obstacles by identifying black pixels in the input map using a specified intensity threshold.
