@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python code implements Dijkstra's algorithm for pathfinding in a 2D grid-based environment. The primary purpose of this code is to find the optimal path between a user-defined start and goal position on a 2D map containing obstacles.
+This Python code implements Dijkstra's algorithm for pathfinding on a 2D map. The primary purpose of this code is to find the optimal path between a user-defined start and goal position on map containing obstacles. A cool feature about this program is that it is modular since it allows the user to feed it any image of a map with obstacles outlined in black. The obstacle detecting threshold can be changed in the code as well for detecting obstacles of other colors. This program utilizes perception knowledge (ENPM673) for detecting the obstacles that have dark pixel intensity. 
 
 ## Features
 
@@ -14,6 +14,7 @@ This Python code implements Dijkstra's algorithm for pathfinding in a 2D grid-ba
 
 3. **Dijkstra's Algorithm:**
    - The core of the code is the implementation of Dijkstra's algorithm for finding the shortest path between a start and goal position in the map.
+   - Uses Heap Queue
 
 4. **User Interaction:**
    - Users can input the coordinates of the start and goal nodes to find the optimal path.
