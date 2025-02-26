@@ -1,4 +1,4 @@
-# Dijkstra_PathPlanning
+# Dijkstra Algorithm Path Planning
 
 ## Overview
 
